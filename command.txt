@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python -u eval_ssd.py --arch resnet50 --training-mode SimCLR --dataset cifar10 --normalize --ckpt ./checpoints/last.pth
